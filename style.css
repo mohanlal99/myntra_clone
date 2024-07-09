@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main_container {
+  padding: 0 3vw;
+}
+header {
+  position: sticky;
+  height: 72px;
+  top: 0;
+  z-index: 10;
+  background: white;
+}
+header nav {
+  font-size: 12px;
+  padding: 14px 0;
+}
+.shadow {
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+}
+
+.rightcontainer img {
+  height: 50px;
+  width: 45px;
+  padding: 0 12px;
+}
+
+.ul li {
+  padding: 0 12px;
+  list-style: none;
+}
+
+.leftcontainer input{
+    background: #f5f5f6;
+    width: 24vw;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 2px;
+}
+.section {
+    margin: 10px 0;
+  /* background-color: rgb(244, 244, 244); */
+}
+
+.slideshow-container {
+    position: relative;
+    margin: auto;
+  }
+  
+  .mySlides {
+      display: none;
+      animation: slide 1.5s ease-in-out;
+  }
+  
+  /* Next & previous buttons (optional)
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  } */
+  
+  /* Animation */
+  @keyframes slide {
+    from {transform: translateX(100%);}
+    to {transform: translateX(0);}
+  }
+  
+  /* On smaller screens, decrease text size (optional) */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+
+
+  .medal{
+    padding: 30px;
+    font-size: 30px;
+    font-weight: 550;
+  }
+
+  .imageSection{
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+  }
+  .imageSection img{
+    height: 180px;
+    width: 150px;
+    padding: 0px 4px;
+
+  }
+  
+
